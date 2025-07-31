@@ -1,3 +1,58 @@
+@font-face{
+    font-family: "trebuchet";
+    src: url("./fonts/trebuc.ttf");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
-    background-color: aliceblue;
+    background-color: #0a4b73;
+    font-family: "trebuchet", sans-serif;
+    color: #737373;
+}
+header, main, footer{
+   background-color: #3bacd9;
+   margin-top: 50px;
+}
+header{
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 430px;
+    height: 150px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#menu{
+    width: 730px;
+    height: 80px;
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+#menu > li{
+    list-style: none;
+    font-size: 30px;
+    line-height:85px;
+     padding: 0px 10px;
+}
+#menu > li:hover{
+    background-color: #0a4b73;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+main{
+    height: 840px;
+}
+footer{
+    height: 550px;
 }
